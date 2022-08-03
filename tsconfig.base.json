@@ -37,10 +37,9 @@
     "incremental": true,
     "removeComments": false,
     "paths": {
-      "@org/app": ["./packages/app/_src/index.ts"],
-      "@org/app/test/*": ["./packages/app/_test/*"],
-      "@org/app/examples/*": ["./packages/app/_examples/*"],
-      "@org/app/*": ["./packages/app/_src/*"]
+      "@org/app": ["./packages/app/src/index.ts"],
+      "@org/app/test/*": ["./packages/app/test/*"],
+      "@org/app/*": ["./packages/app/src/*"]
     }
   },
   "include": [],
