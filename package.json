@@ -13,7 +13,7 @@
     "clean": "ultra -r clean && rimraf tsconfig.tsbuildinfo",
     "build": "tsc -b tsconfig.json",
     "build-watch": "yarn build --watch",
-    "circular": "yarn org:madge --ts-config ./tsconfig.madge.json --circular --no-color --no-spinner --warning packages/*/build/esm packages/*/build/test packages/*/build/examples",
+    "circular": "yarn org:madge --ts-config ./tsconfig.madge.json --circular --no-color --no-spinner --warning packages/*/build/esm packages/*/build/test",
     "test": "vitest",
     "autofix": "ultra -r autofix",
     "lint": "ultra -r lint",
