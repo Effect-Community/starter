@@ -2,8 +2,7 @@
   "importMap": {
     "^(.*)/packages/([^/]*)/src(.*)/index\\.ts$": "@org/$2$3",
     "^(.*)/packages/([^/]*)/src(.*)\\.ts$": "@org/$2$3",
-    "^(.*)/packages/([^/]*)/test/(.*)\\.ts$": "@org/$2/test/$3",
-    "^(.*)/packages/([^/]*)/examples/(.*)\\.ts$": "@org/$2/examples/$3"
+    "^(.*)/packages/([^/]*)/test/(.*)\\.ts$": "@org/$2/test/$3"
   },
   "traceMap": {
     "^(.*)/packages/([^/]*)/(.*)$": "(@org/$2) $3"
