@@ -1,0 +1,37 @@
+{
+  "name": "@org/app",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": "https://github.com/Effect-TS/starter.git",
+  "author": "Michael Arnaldi <arnaldimichael@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "scripts": {
+    "clean": "yarn org:rimraf build tsbuildinfo dist",
+    "lint": "yarn org:eslint . --ext .ts,.tsx",
+    "autofix": "yarn lint --fix"
+  },
+  "exports": {
+    ".": {
+      "import": "./build/esm/index.js"
+    },
+    "./test/*": {
+      "import": "./build/test/*.js"
+    },
+    "./*": {
+      "import": "./build/esm/*.js"
+    }
+  },
+  "dependencies": {
+    "@effect/core": "^0.0.9",
+    "@tsplus/runtime": "^0.1.3",
+    "@tsplus/stdlib": "^0.2.2"
+  },
+  "config": {
+    "side": [],
+    "modules": []
+  }
+}

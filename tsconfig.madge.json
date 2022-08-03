@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@org/app": ["./packages/app/build/esm/index.js"],
+      "@org/app/test/*": ["./packages/app/build/test/*"],
+      "@org/app/*": ["./packages/app/build/esm/*"]
+    }
+  },
+  "include": [
+    "./packages/app/build/esm/**/*.js",
+    "./packages/app/build/test/**/*.js",
+    "./packages/app/build/examples/**/*.js"
+  ]
+}
