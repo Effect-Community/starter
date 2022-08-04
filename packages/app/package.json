@@ -26,9 +26,9 @@
     }
   },
   "dependencies": {
-    "@effect/core": "^0.0.9",
-    "@tsplus/runtime": "^0.1.3",
-    "@tsplus/stdlib": "^0.2.2"
+    "@effect/core": "^0.0.10",
+    "@tsplus/runtime": "^0.1.4",
+    "@tsplus/stdlib": "^0.2.3"
   },
   "config": {
     "side": [],

@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "node packages/app/build/esm/main.js",
-    "clean": "ultra -r clean && rimraf tsconfig.tsbuildinfo",
+    "clean": "yarn workspace @org/app clean && rimraf tsconfig.tsbuildinfo",
     "build": "tsc -b tsconfig.json",
     "build-watch": "yarn build --watch",
     "circular": "yarn org:madge --ts-config ./tsconfig.madge.json --circular --no-color --no-spinner --warning packages/*/build/esm packages/*/build/test",
@@ -27,7 +27,7 @@
   "packageManager": "yarn@3.2.1",
   "devDependencies": {
     "@repo-tooling/eslint-plugin-dprint": "^0.0.4",
-    "@tsplus/installer": "^0.0.129",
+    "@tsplus/installer": "^0.0.132",
     "@types/node": "^18.6.3",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
