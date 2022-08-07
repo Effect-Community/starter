@@ -1,5 +1,4 @@
 import type {} from "@org/app/global"
-
 /**
  * @tsplus global
  */
