@@ -1,7 +1,5 @@
-import "@tsplus/runtime/global"
-import "@tsplus/stdlib/global"
+import type {} from "@org/app/global"
 
-import type {} from "@effect/core/global"
 /**
  * @tsplus global
  */
